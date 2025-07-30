@@ -266,6 +266,61 @@ Our evaluation framework has processed over 2,400 individual matches across 48 d
 
 The complete leaderboard reveals a complex landscape of model capabilities, with clear performance tiers emerging across both raw performance and cost-adjusted metrics. The evaluation encompasses models ranging from cutting-edge frontier systems like GPT-4 and Claude-3 to more efficient alternatives like Gemini and specialized models like Qwen and Grok variants.
 
+# Elo Score Distributions for Participating Models
+
+| Model                              | Cost Adjusted Elo | Adj Elo Rank | Raw Elo | Raw Elo Rank | Rank Difference |
+|------------------------------------|-------------------|--------------|---------|--------------|-----------------|
+| GPT-4.1 mini                       | 1605.7            | 1            | 1599.6  | 3            | 2               |
+| GPT-4.1                            | 1603.7            | 2            | 1601.2  | 2            | 0               |
+| GPT-04-mini                        | 1569.9            | 3            | 1568.2  | 4            | 1               |
+| Qwen 3.2 235B                      | 1564.8            | 4            | 1555.4  | 5            | 1               |
+| Gemini 2.5 Pro                     | 1561.9            | 5            | 1603.9  | 1            | -4              |
+| Grok 3 Mini Fast                   | 1540.9            | 6            | 1537.7  | 6            | 0               |
+| Qwen 3 32B                         | 1537.7            | 7            | 1529.9  | 10           | 3               |
+| Gemini 2.0 Flash                   | 1527.6            | 8            | 1519.6  | 11           | 3               |
+| Claude 3.7 Sonnet                  | 1527.1            | 9            | 1530.5  | 8            | -1              |
+| Grok 3                             | 1523.2            | 10           | 1523.4  | 9            | -1              |
+| Claude 3.5 Haiku                   | 1515.0            | 11           | 1509.8  | 14           | 3               |
+| Grok 3 Fast                        | 1514.7            | 12           | 1519.2  | 12           | 0               |
+| GPT-4o                             | 1510.4            | 13           | 1515.3  | 13           | 0               |
+| Gemini 2.5 Flash                   | 1510.3            | 14           | 1506.6  | 17           | 3               |
+| Claude 3.5 Sonnet                  | 1505.6            | 15           | 1509.7  | 15           | 0               |
+| Gemini 2.0 Flash Lite              | 1503.0            | 16           | 1497.3  | 19           | 3               |
+| Grok 3 Mini                        | 1501.6            | 17           | 1493.4  | 21           | 4               |
+| Command R 7B                       | 1501.2            | 18           | 1491.7  | 22           | 4               |
+| Meta Llama 4 Scout Instruct 17B    | 1500.6            | 19           | 1494.6  | 20           | 1               |
+| DeepSeek R1 Distill Llama 70B      | 1499.0            | 20           | 1487.9  | 24           | 4               |
+| GPT-4.1 nano                       | 1498.6            | 21           | 1490.4  | 23           | 2               |
+| GPT-03-mini                        | 1492.4            | 22           | 1533.7  | 7            | -15             |
+| GPT-03                             | 1486.2            | 23           | 1508.4  | 16           | -7              |
+| Gemma 3 27B                        | 1484.5            | 24           | 1477.6  | 26           | 2               |
+| Meta Llama 4 Maverick Instruct 17B | 1483.8            | 25           | 1478.8  | 25           | 0               |
+| Microsoft Phi 2                    | 1472.6            | 26           | 1470.6  | 27           | 1               |
+| Grok 2                             | 1468.1            | 27           | 1468.8  | 29           | 2               |
+| Command R                          | 1466.3            | 28           | 1462.2  | 31           | 3               |
+| Command A                          | 1465.0            | 29           | 1462.8  | 30           | 1               |
+| Claude 3 Opus                      | 1464.9            | 30           | 1501.9  | 18           | -12             |
+| Claude 3 Sonnet                    | 1464.5            | 31           | 1470.6  | 28           | -3              |
+| Gemini 1.5 Flash                   | 1463.4            | 32           | 1460.6  | 32           | 0               |
+| Gemini 1.5 Pro                     | 1460.8            | 33           | 1457.3  | 34           | 1               |
+| Command R+                         | 1459.4            | 34           | 1460.5  | 33           | -1              |
+| Microsoft Phi 3.5 Mini Instruct    | 1457.5            | 35           | 1450.4  | 35           | 0               |
+| Gemma 3 12B                        | 1451.3            | 36           | 1447.8  | 36           | 0               |
+| Mistral 8x7B Instruct              | 1451.1            | 37           | 1447.5  | 37           | 0               |
+| Llama 3.3 70B                      | 1444.7            | 38           | 1444.9  | 38           | 0               |
+| Claude 3 Haiku                     | 1436.6            | 39           | 1434.1  | 39           | 0               |
+| Gemini 1.5 Flash 8B                | 1430.3            | 40           | 1426.9  | 40           | 0               |
+| Gemma 3 4B                         | 1428.0            | 41           | 1424.1  | 41           | 0               |
+| LLAMA 3.1 8B Instant               | 1426.5            | 42           | 1423.9  | 42           | 0               |
+| Mistral Saba 24B                   | 1422.8            | 43           | 1421.0  | 43           | 0               |
+| GPT-3.5 Turbo                      | 1415.7            | 44           | 1413.9  | 44           | 0               |
+| Gemma 2 9B                         | 1412.4            | 45           | 1411.0  | 45           | 0               |
+| Gemma 3 1B                         | 1388.5            | 46           | 1387.5  | 46           | 0               |
+| Allamanda 2 7B                     | 1354.6            | 47           | 1353.9  | 47           | 0               |
+| Mistral Nemo Instruct 2407         | 1276.0            | 48           | 1274.9  | 48           | 0               |
+
+**Table 1: Elo Score Distributions for participating models**
+
 ### Current Performance Rankings
 
 After 50 matches per model, the leaderboard demonstrates several key findings:
