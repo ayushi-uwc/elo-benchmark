@@ -182,7 +182,7 @@ python main.py --batch-size 10 --stats
 python check_models.py
 ```
 
-## 🛠️ Installation
+## Installation
 
 ### Environment Setup
 
