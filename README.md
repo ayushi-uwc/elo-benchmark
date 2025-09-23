@@ -1,4 +1,4 @@
-# 🏆 Clinical Reasoning Language Model Elo Rating
+# Clinical Reasoning Language Model Elo Rating
 
 <div align="center">
 
@@ -10,24 +10,24 @@
 
 *A peer-federated evaluation framework addressing benchmark overfitting and cost-efficiency trade-offs in large language model assessment*
 
-[📈 Results](#-results) • [🚀 Quick Start](#-quick-start) • [🔧 Installation](#-installation)
+[Results](#-results) • [Quick Start](#-quick-start) • [Installation](#-installation)
 
 </div>
 
-## 🔗 Benchmarks by Domain
+## Benchmarks by Domain
 
-> ### 🩺 for Clinical Reasoning  
-> [**🔗 GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark)  
+> ### for Clinical Reasoning  
+> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark)  
 > This implementation focuses on diagnostic case evaluation and clinical reasoning.  
 > Uses dynamic peer-generated challenges and dual-track Elo to evaluate medical knowledge, logical consistency, and decision-making accuracy.
 
-> ### 💻 for Programming Tasks  
-> [**🔗 GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-programming)  
+> ### for Programming Tasks  
+> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-programming)  
 > Evaluates LLMs on algorithm design, code efficiency, debugging, and optimization skills.  
 > Prompts are adapted to competitive programming-style tasks with multi-provider peer evaluation.
 
-> ### 🧮 for Mathematical Reasoning  
-> [**🔗 GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-mathematical-reasoning)  
+> ### for Mathematical Reasoning  
+> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-mathematical-reasoning)  
 > Focuses on proof construction, logical deduction, and symbolic reasoning.  
 > Uses math-focused prompts and peer-reviewed challenge generation to assess core reasoning capabilities.
 
@@ -147,7 +147,7 @@ Detailed Logs have been uploaded to google drive
 
 [Detailed Logs](https://drive.google.com/drive/folders/1vZh4me-VpUhWxts7PyF3jnm0NJ-lGL_O?usp=sharing)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Python 3.8+
@@ -227,7 +227,7 @@ Add new models in `model_definitions.py`:
 }
 ```
 
-## 📊 Usage
+## Usage
 
 ### Command Line Interface
 
@@ -276,23 +276,23 @@ for match in matches:
 
 ```
 elo-benchmark/
-├── 📄 main.py                    # Main entry point
-├── 🏆 tournament.py              # Tournament management and pairing
-├── 🤖 models.py                  # LLM model classes and Elo tracking
-├── ⚔️ matches.py                 # Match logic and prompt templates
-├── 🗄️ database.py                # MongoDB operations and data persistence
-├── ⚙️ config.py                  # Configuration and environment variables
-├── 📋 model_definitions.py       # Model specifications and pricing
-├── 📊 leaderboard.py             # Results display and ranking
-├── 🔍 check_models.py            # Model health checks and validation
-├── 📈 match_results_table.py     # Results analysis and visualization
-├── 🔧 logger_config.py           # Logging configuration
-├── 📝 logs/                      # Tournament logs and match history
-├── 🧪 tests/                     # Unit tests and integration tests
-└── 📚 docs/                      # Additional documentation
+├──  main.py                    # Main entry point
+├──  tournament.py              # Tournament management and pairing
+├──  models.py                  # LLM model classes and Elo tracking
+├──  matches.py                 # Match logic and prompt templates
+├──  database.py                # MongoDB operations and data persistence
+├──  config.py                  # Configuration and environment variables
+├──  model_definitions.py       # Model specifications and pricing
+├──  leaderboard.py             # Results display and ranking
+├──  check_models.py            # Model health checks and validation
+├──  match_results_table.py     # Results analysis and visualization
+├──  logger_config.py           # Logging configuration
+├──  logs/                      # Tournament logs and match history
+├──  tests/                     # Unit tests and integration tests
+└──  docs/                      # Additional documentation
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details.
 
@@ -312,12 +312,12 @@ black . && flake8 . && mypy .
 ```
 
 
-## 📄 License
+## License
 
 This project is licensed under the ([![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 ).
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Built with [LiteLLM](https://github.com/BerriAI/litellm) for unified LLM access
 - Inspired by chess Elo rating systems and [TrueSkill](https://www.microsoft.com/en-us/research/project/trueskill-ranking-system/)
