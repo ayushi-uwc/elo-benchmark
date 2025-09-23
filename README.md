@@ -272,7 +272,7 @@ for match in matches:
 | `cost_temperature` | 0.05 | Cost sensitivity |
 | `judge_temperature` | 300 | Judge weight temperature |
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 elo-benchmark/
