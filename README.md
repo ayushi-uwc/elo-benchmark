@@ -14,26 +14,6 @@
 
 </div>
 
-## Benchmarks by Domain
-
-> ### for Clinical Reasoning  
-> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark)  
-> This implementation focuses on diagnostic case evaluation and clinical reasoning.  
-> Uses dynamic peer-generated challenges and dual-track Elo to evaluate medical knowledge, logical consistency, and decision-making accuracy.
-
-> ### for Programming Tasks  
-> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-programming)  
-> Evaluates LLMs on algorithm design, code efficiency, debugging, and optimization skills.  
-> Prompts are adapted to competitive programming-style tasks with multi-provider peer evaluation.
-
-> ### for Mathematical Reasoning  
-> [** GitHub Repository**](https://github.com/ayushi-uwc/elo-benchmark-mathematical-reasoning)  
-> Focuses on proof construction, logical deduction, and symbolic reasoning.  
-> Uses math-focused prompts and peer-reviewed challenge generation to assess core reasoning capabilities.
-
-All benchmarks follow a standardized Swiss-pairing system with full cost-performance analysis.  
-Each repo includes open logs, match histories, and leaderboard tracking.
-
 ```
 DETAILED LEADERBOARD
 ┌───┬──────────────────────────────┬────────┬────────┬──────────┬──────────┬────────────┬────────┬───────────┬────────┐
